@@ -12,7 +12,7 @@ Mobile-friendly static website for rotating strength workouts tailored for runne
 
 ## How to use
 1. Enable GitHub Pages (Settings → Pages → Deploy from main branch / root)
-2. Visit the published URL on your phone
+2. Visit the published URL on your phone: https://bjoggithk.github.io/runner-strength-workouts/
 3. Select a workout and progress through the exercises
 
 ## Expanding later
