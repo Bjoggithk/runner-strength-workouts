@@ -155,7 +155,38 @@ header p {
   font-size: 1.1rem;
   color: #22c55e;
   font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.sets-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
   margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.set-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #1e293b;
+  padding: 0.6rem 0.9rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  user-select: none;
+}
+
+.set-checkbox input[type="checkbox"] {
+  width: 1.3rem;
+  height: 1.3rem;
+  accent-color: #22c55e;
+  cursor: pointer;
+}
+
+.set-checkbox.checked {
+  background: #14532d;
 }
 
 .instructions {
