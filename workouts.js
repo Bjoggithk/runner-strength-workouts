@@ -22,7 +22,7 @@ const workouts = {
           "Lower until you feel a stretch in hamstrings, keep back flat.",
           "Drive hips forward to stand, squeeze glutes."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/hamstrings/dumbbell-romanian-deadlift.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/hamstrings/barbell-straight-leg-deadlift.gif"
       },
       {
         name: "Single-leg Step-downs",
@@ -77,7 +77,7 @@ const workouts = {
           "Press back up.",
           "Keep shoulders stable."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/chest/dumbbell-bench-press.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/barbell-bench-press.gif"
       },
       {
         name: "Bent-over or Seated Row",
@@ -87,7 +87,7 @@ const workouts = {
           "Pull elbows back, squeeze shoulder blades.",
           "Control the return."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/dumbbell-bent-over-row.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/pull-up.gif"
       },
       {
         name: "Overhead Press",
@@ -97,7 +97,7 @@ const workouts = {
           "Keep core braced, avoid excessive arch.",
           "Lower with control."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/dumbbell-seated-shoulder-press.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/dumbbell-bench-seated-press.gif"
       },
       {
         name: "Dead Bugs or Plank",
@@ -106,7 +106,7 @@ const workouts = {
           "Dead bug: Lie on back, opposite arm and leg extend slowly while keeping lower back pressed to floor.",
           "Plank: Forearms or hands, body in straight line, brace core."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/plank.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/weighted-front-plank.gif"
       }
     ]
   },
@@ -132,7 +132,7 @@ const workouts = {
           "Keep hips square, back flat.",
           "Lower dumbbells toward floor, then return."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/hamstrings/dumbbell-single-leg-deadlift.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/hamstrings/barbell-straight-leg-deadlift.gif"
       },
       {
         name: "Step-ups with Knee Drive",
@@ -177,7 +177,7 @@ const workouts = {
           "Full range or modified as needed.",
           "Keep body straight on push-ups."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/chest/push-up.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/push-up.gif"
       },
       {
         name: "Pull-ups, Lat Pulldown, or Single-arm Row",
@@ -203,7 +203,7 @@ const workouts = {
           "Side plank: hips stacked, body straight.",
           "Bird dog: opposite arm and leg extend, keep hips level."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/side-plank.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/bodyweight-incline-side-plank.gif"
       }
     ]
   },
@@ -217,7 +217,7 @@ const workouts = {
           "Hinge and swing the kettlebell to chest/shoulder height using hip drive.",
           "Keep arms relaxed, power from glutes."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/hamstrings/kettlebell-swing.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/hamstrings/kettlebell-hang-clean.gif"
       },
       {
         name: "Hip Thrusts",
@@ -226,7 +226,7 @@ const workouts = {
           "Shoulders on bench, drive hips up by squeezing glutes.",
           "Pause at top. Can use barbell or dumbbell."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-hip-thrust.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-glute-bridge.gif"
       },
       {
         name: "Reverse Lunges or Walking Lunges",
@@ -269,7 +269,7 @@ const workouts = {
         instructions: [
           "Press from chest or floor."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/chest/dumbbell-floor-press.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/push-up.gif"
       },
       {
         name: "Kettlebell Rows or Renegade Rows",
@@ -277,7 +277,7 @@ const workouts = {
         instructions: [
           "Row while keeping hips stable."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/dumbbell-bent-over-row.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/pull-up.gif"
       },
       {
         name: "Kettlebell Halo or Dumbbell Shoulder Press",
@@ -286,7 +286,7 @@ const workouts = {
           "Halo: circle kettlebell around head.",
           "Or standard shoulder press."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/dumbbell-seated-shoulder-press.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/dumbbell-bench-seated-press.gif"
       },
       {
         name: "Plank Variations or Hanging Leg Raises",
@@ -294,7 +294,7 @@ const workouts = {
         instructions: [
           "Hold plank or controlled hanging raises if tolerated."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/plank.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/weighted-front-plank.gif"
       }
     ]
   },
@@ -308,7 +308,7 @@ const workouts = {
           "Feet shoulder-width, sit back and down, chest up.",
           "Add band under feet for resistance if desired."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/bodyweight-squat.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/dumbbell-goblet-squat.gif"
       },
       {
         name: "Glute Bridges (progress to single-leg)",
@@ -317,7 +317,7 @@ const workouts = {
           "Lie on back, feet flat, drive hips up by squeezing glutes.",
           "Single-leg: extend one leg."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/bodyweight-glute-bridge.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/low-glute-bridge-on-floor.gif"
       },
       {
         name: "Step-downs (stairs or sturdy chair)",
@@ -359,7 +359,7 @@ const workouts = {
         instructions: [
           "Elevate hands if needed. Body in straight line."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/chest/push-up.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/push-up.gif"
       },
       {
         name: "Banded Rows",
@@ -367,7 +367,7 @@ const workouts = {
         instructions: [
           "Band under feet or anchored. Pull elbows back."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/band-bent-over-row.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/pull-up.gif"
       },
       {
         name: "Banded Shoulder Press or Pike Push-ups",
@@ -383,7 +383,7 @@ const workouts = {
         instructions: [
           "Keep core braced, lower back flat on dead bugs."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/plank.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/weighted-front-plank.gif"
       }
     ]
   },
@@ -404,7 +404,7 @@ const workouts = {
         instructions: [
           "One foot planted, other leg extended. Drive hips up."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/bodyweight-single-leg-glute-bridge.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/single-leg-bridge-with-outstretched-leg.gif"
       },
       {
         name: "Step-downs",
@@ -421,7 +421,7 @@ const workouts = {
           "Lying: slow leg lifts, back flat.",
           "Or banded standing knee drives."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/lying-leg-raise.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/assisted-hanging-knee-raise.gif"
       },
       {
         name: "Single-leg Calf Raises",
@@ -437,7 +437,7 @@ const workouts = {
         instructions: [
           "Band around knees or ankles. Step sideways or open knee for clams."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/band-clamshell.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/band-hip-lift.gif"
       },
       {
         name: "Push-ups",
@@ -445,7 +445,7 @@ const workouts = {
         instructions: [
           "Standard or close-grip."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/chest/push-up.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/push-up.gif"
       },
       {
         name: "Banded Rows",
@@ -453,7 +453,7 @@ const workouts = {
         instructions: [
           "Pull elbows back, squeeze shoulder blades."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/band-bent-over-row.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/pull-up.gif"
       },
       {
         name: "Band Pull-aparts + Overhead Band Presses",
@@ -461,7 +461,7 @@ const workouts = {
         instructions: [
           "Pull band apart at chest height, then press overhead."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/band-pull-apart.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/band-shoulder-press.gif"
       },
       {
         name: "Bird Dogs or Side Planks",
@@ -469,7 +469,7 @@ const workouts = {
         instructions: [
           "Keep hips level and core braced."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/bird-dog.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/bodyweight-incline-side-plank.gif"
       }
     ]
   },
@@ -482,7 +482,7 @@ const workouts = {
         instructions: [
           "Band under feet, squat with tension."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/band-squat.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/dumbbell-goblet-squat.gif"
       },
       {
         name: "Banded Hip Thrusts or Single-leg Bridges",
@@ -490,7 +490,7 @@ const workouts = {
         instructions: [
           "Band across hips if possible, or standard bridges."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/bodyweight-glute-bridge.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/low-glute-bridge-on-floor.gif"
       },
       {
         name: "Step-downs",
@@ -522,7 +522,7 @@ const workouts = {
         instructions: [
           "Band around ankles or knees, step sideways with tension."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/band-lateral-walk.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/band-hip-lift.gif"
       },
       {
         name: "Push-ups",
@@ -530,7 +530,7 @@ const workouts = {
         instructions: [
           "Maintain straight line from head to heels."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/chest/push-up.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/push-up.gif"
       },
       {
         name: "Banded Face Pulls or Rows",
@@ -538,7 +538,7 @@ const workouts = {
         instructions: [
           "Pull band toward face or row elbows back."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/band-bent-over-row.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/pull-up.gif"
       },
       {
         name: "Banded Lateral Raises or Shoulder Press",
@@ -546,7 +546,7 @@ const workouts = {
         instructions: [
           "Raise arms to sides or press overhead with band."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/band-lateral-raise.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/band-shoulder-press.gif"
       },
       {
         name: "Plank with Knee Drives or Dead Bugs",
@@ -554,7 +554,7 @@ const workouts = {
         instructions: [
           "From plank, drive knees toward chest alternately, or perform dead bugs."
         ],
-        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/plank.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/weighted-front-plank.gif"
       }
     ]
   }
