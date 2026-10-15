@@ -43,6 +43,19 @@ function saveCheckedSets(checked) {
   localStorage.setItem(getStorageKey(), JSON.stringify(checked));
 }
 
+function clearWorkoutProgress(workoutId) {
+  // Remove all set-checkbox progress for this workout
+  const prefix = `workout_${workoutId}_ex_`;
+  const keysToRemove = [];
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    if (key && key.startsWith(prefix)) {
+      keysToRemove.push(key);
+    }
+  }
+  keysToRemove.forEach(key => localStorage.removeItem(key));
+}
+
 function renderSets(ex) {
   const numSets = getSetsCount(ex.setsReps);
   const checked = loadCheckedSets();
@@ -79,6 +92,11 @@ function renderSets(ex) {
 }
 
 function renderExercise() {
+  if (!currentWorkout || !currentWorkout.exercises || currentWorkout.exercises.length === 0) {
+    exerciseName.textContent = 'No exercises found';
+    return;
+  }
+
   const exercises = currentWorkout.exercises;
   const ex = exercises[currentIndex];
 
@@ -115,7 +133,16 @@ function renderExercise() {
 function startWorkout(id) {
   currentWorkoutId = id;
   currentWorkout = workouts[id];
+
+  if (!currentWorkout) {
+    alert('Workout not found');
+    return;
+  }
+
+  // Always start fresh at the beginning and clear previous set progress
   currentIndex = 0;
+  clearWorkoutProgress(id);
+
   showScreen(workoutScreen);
   renderExercise();
 }
@@ -138,15 +165,28 @@ nextBtn.addEventListener('click', () => {
     currentIndex++;
     renderExercise();
   } else {
+    // Finished – clear progress so next open starts clean
+    if (currentWorkoutId) {
+      clearWorkoutProgress(currentWorkoutId);
+    }
     showScreen(completeScreen);
   }
 });
 
 backBtn.addEventListener('click', () => {
+  // Leaving mid-workout also clears progress so reopening starts at the beginning
+  if (currentWorkoutId) {
+    clearWorkoutProgress(currentWorkoutId);
+  }
+  currentIndex = 0;
   showScreen(selector);
 });
 
 restartBtn.addEventListener('click', () => {
+  if (currentWorkoutId) {
+    clearWorkoutProgress(currentWorkoutId);
+  }
+  currentIndex = 0;
   showScreen(selector);
 });
 
