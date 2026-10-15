@@ -30,7 +30,7 @@ header p {
 }
 
 #app {
-  max-width: 480px;
+  max-width: 520px;
   margin: 0 auto;
   padding: 1rem;
 }
@@ -43,11 +43,22 @@ header p {
   display: block;
 }
 
+.section-title {
+  font-size: 1.1rem;
+  margin: 1.5rem 0 0.5rem;
+  color: #cbd5e1;
+  text-align: center;
+}
+
 .workout-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0.75rem;
   margin: 1rem 0;
+}
+
+.ppl-grid {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .col-header {
@@ -66,6 +77,21 @@ header p {
 
 .col-header.home {
   background: #047857;
+  color: white;
+}
+
+.col-header.push {
+  background: #b91c1c;
+  color: white;
+}
+
+.col-header.pull {
+  background: #1e3a8a;
+  color: white;
+}
+
+.col-header.legs {
+  background: #6d28d9;
   color: white;
 }
 
@@ -91,6 +117,18 @@ header p {
 
 .workout-btn.home {
   background: #059669;
+}
+
+.workout-btn.push {
+  background: #dc2626;
+}
+
+.workout-btn.pull {
+  background: #2563eb;
+}
+
+.workout-btn.legs {
+  background: #7c3aed;
 }
 
 .workout-btn small {
@@ -260,6 +298,15 @@ footer {
   padding: 1.5rem 1rem;
   font-size: 0.75rem;
   color: #64748b;
+}
+
+@media (max-width: 480px) {
+  .ppl-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .ppl-grid .col-header.legs {
+    grid-column: 1 / -1;
+  }
 }
 
 @media (max-width: 360px) {
