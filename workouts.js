@@ -11,7 +11,7 @@ const workouts = {
           "Sit back and down, keeping chest up and knees tracking over toes.",
           "Drive through heels to stand. Focus on controlled tempo."
         ],
-        image: "https://media.tenor.com/images/placeholder-squat.gif" // Replace with real GIF URL
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/dumbbell-goblet-squat.gif"
       },
       {
         name: "Romanian Deadlift",
@@ -22,7 +22,7 @@ const workouts = {
           "Lower until you feel a stretch in hamstrings, keep back flat.",
           "Drive hips forward to stand, squeeze glutes."
         ],
-        image: "https://media.tenor.com/images/placeholder-rdl.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/hamstrings/dumbbell-romanian-deadlift.gif"
       },
       {
         name: "Single-leg Step-downs",
@@ -33,7 +33,7 @@ const workouts = {
           "Lightly tap the floor (do not push off with it).",
           "Drive back up through the standing heel. Keep knee tracking over toes."
         ],
-        image: "https://media.tenor.com/images/placeholder-stepdown.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/dumbbell-step-up-split-squat.gif"
       },
       {
         name: "Cable or Band Standing Hip Flexion / Knee Drive",
@@ -44,7 +44,7 @@ const workouts = {
           "Pause briefly at the top, then lower slowly with control.",
           "Stay tall, core braced. Stop if sharp hip flexor pain."
         ],
-        image: "https://media.tenor.com/images/placeholder-kneeflex.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/cardio/high-knee-against-wall.gif"
       },
       {
         name: "Standing Calf Raises",
@@ -55,7 +55,7 @@ const workouts = {
           "Lower slowly under control.",
           "Can do double or single leg."
         ],
-        image: "https://media.tenor.com/images/placeholder-calf.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/calves/dumbbell-standing-calf-raise.gif"
       },
       {
         name: "Tibialis Raises",
@@ -66,7 +66,7 @@ const workouts = {
           "Lower under control.",
           "Helps with shin strength."
         ],
-        image: "https://media.tenor.com/images/placeholder-tib.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/calves/band-single-leg-reverse-calf-raise.gif"
       },
       {
         name: "Bench Press or Dumbbell Press",
@@ -77,7 +77,7 @@ const workouts = {
           "Press back up.",
           "Keep shoulders stable."
         ],
-        image: "https://media.tenor.com/images/placeholder-bench.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/chest/dumbbell-bench-press.gif"
       },
       {
         name: "Bent-over or Seated Row",
@@ -87,7 +87,7 @@ const workouts = {
           "Pull elbows back, squeeze shoulder blades.",
           "Control the return."
         ],
-        image: "https://media.tenor.com/images/placeholder-row.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/dumbbell-bent-over-row.gif"
       },
       {
         name: "Overhead Press",
@@ -97,7 +97,7 @@ const workouts = {
           "Keep core braced, avoid excessive arch.",
           "Lower with control."
         ],
-        image: "https://media.tenor.com/images/placeholder-ohp.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/dumbbell-seated-shoulder-press.gif"
       },
       {
         name: "Dead Bugs or Plank",
@@ -106,7 +106,7 @@ const workouts = {
           "Dead bug: Lie on back, opposite arm and leg extend slowly while keeping lower back pressed to floor.",
           "Plank: Forearms or hands, body in straight line, brace core."
         ],
-        image: "https://media.tenor.com/images/placeholder-core.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/plank.gif"
       }
     ]
   },
@@ -122,7 +122,7 @@ const workouts = {
           "Drive through front heel to stand.",
           "Hold dumbbells if desired."
         ],
-        image: "https://media.tenor.com/images/placeholder-bss.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/dumbbell-single-leg-split-squat.gif"
       },
       {
         name: "Single-leg Romanian Deadlift",
@@ -132,7 +132,7 @@ const workouts = {
           "Keep hips square, back flat.",
           "Lower dumbbells toward floor, then return."
         ],
-        image: "https://media.tenor.com/images/placeholder-slrdl.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/hamstrings/dumbbell-single-leg-deadlift.gif"
       },
       {
         name: "Step-ups with Knee Drive",
@@ -141,7 +141,7 @@ const workouts = {
           "Step onto box with one foot, drive opposite knee up to 90 degrees.",
           "Step back down with control."
         ],
-        image: "https://media.tenor.com/images/placeholder-stepup.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/dumbbell-step-up-lunge.gif"
       },
       {
         name: "Single-leg Step-downs",
@@ -149,7 +149,7 @@ const workouts = {
         instructions: [
           "Same as Gym A: controlled eccentric lower, no push-off with free foot, knee tracks over toes."
         ],
-        image: "https://media.tenor.com/images/placeholder-stepdown.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/dumbbell-step-up-split-squat.gif"
       },
       {
         name: "Hanging Knee Raises or Cable Hip Flexion",
@@ -159,7 +159,7 @@ const workouts = {
           "Cable: drive knee up against resistance, slow lower.",
           "Pain-free range only."
         ],
-        image: "https://media.tenor.com/images/placeholder-kneeraise.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/assisted-hanging-knee-raise.gif"
       },
       {
         name: "Single-leg Calf Raises",
@@ -168,7 +168,7 @@ const workouts = {
           "Rise onto ball of foot, lower slowly.",
           "Hold for balance."
         ],
-        image: "https://media.tenor.com/images/placeholder-calf.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/calves/dumbbell-single-leg-calf-raise.gif"
       },
       {
         name: "Push-ups or Dips",
@@ -177,7 +177,7 @@ const workouts = {
           "Full range or modified as needed.",
           "Keep body straight on push-ups."
         ],
-        image: "https://media.tenor.com/images/placeholder-pushup.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/chest/push-up.gif"
       },
       {
         name: "Pull-ups, Lat Pulldown, or Single-arm Row",
@@ -185,7 +185,7 @@ const workouts = {
         instructions: [
           "Pull elbows down and back, squeeze shoulder blades."
         ],
-        image: "https://media.tenor.com/images/placeholder-pullup.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/pull-up.gif"
       },
       {
         name: "Face Pulls or Band Pull-aparts + Lateral Raises",
@@ -194,7 +194,7 @@ const workouts = {
           "External rotation for face pulls / pull-aparts.",
           "Raise dumbbells to shoulder height for lateral raises."
         ],
-        image: "https://media.tenor.com/images/placeholder-facepull.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/dumbbell-lateral-raise.gif"
       },
       {
         name: "Side Plank or Bird Dogs",
@@ -203,7 +203,7 @@ const workouts = {
           "Side plank: hips stacked, body straight.",
           "Bird dog: opposite arm and leg extend, keep hips level."
         ],
-        image: "https://media.tenor.com/images/placeholder-sideplank.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/side-plank.gif"
       }
     ]
   },
@@ -217,7 +217,7 @@ const workouts = {
           "Hinge and swing the kettlebell to chest/shoulder height using hip drive.",
           "Keep arms relaxed, power from glutes."
         ],
-        image: "https://media.tenor.com/images/placeholder-swing.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/hamstrings/kettlebell-swing.gif"
       },
       {
         name: "Hip Thrusts",
@@ -226,7 +226,7 @@ const workouts = {
           "Shoulders on bench, drive hips up by squeezing glutes.",
           "Pause at top. Can use barbell or dumbbell."
         ],
-        image: "https://media.tenor.com/images/placeholder-thrust.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/barbell-hip-thrust.gif"
       },
       {
         name: "Reverse Lunges or Walking Lunges",
@@ -235,7 +235,7 @@ const workouts = {
           "Step back or forward into lunge, front knee tracks over toes.",
           "Drive back to start."
         ],
-        image: "https://media.tenor.com/images/placeholder-lunge.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/dumbbell-reverse-lunge.gif"
       },
       {
         name: "Step-downs",
@@ -243,7 +243,7 @@ const workouts = {
         instructions: [
           "Controlled single-leg step-down. Knee tracks over toes."
         ],
-        image: "https://media.tenor.com/images/placeholder-stepdown.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/dumbbell-step-up-split-squat.gif"
       },
       {
         name: "Banded or Cable Knee Drives",
@@ -252,7 +252,7 @@ const workouts = {
           "Drive knee up against resistance, slow lower.",
           "Pain-free."
         ],
-        image: "https://media.tenor.com/images/placeholder-kneeflex.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/cardio/high-knee-against-wall.gif"
       },
       {
         name: "Bent-knee Calf Raises + Tibialis Raises",
@@ -261,7 +261,7 @@ const workouts = {
           "Soleus: knees bent for calf raises.",
           "Tibialis: lift toes."
         ],
-        image: "https://media.tenor.com/images/placeholder-tib.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/calves/dumbbell-seated-calf-raise.gif"
       },
       {
         name: "Kettlebell or Dumbbell Floor/Bench Press",
@@ -269,7 +269,7 @@ const workouts = {
         instructions: [
           "Press from chest or floor."
         ],
-        image: "https://media.tenor.com/images/placeholder-bench.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/chest/dumbbell-floor-press.gif"
       },
       {
         name: "Kettlebell Rows or Renegade Rows",
@@ -277,7 +277,7 @@ const workouts = {
         instructions: [
           "Row while keeping hips stable."
         ],
-        image: "https://media.tenor.com/images/placeholder-row.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/dumbbell-bent-over-row.gif"
       },
       {
         name: "Kettlebell Halo or Dumbbell Shoulder Press",
@@ -286,7 +286,7 @@ const workouts = {
           "Halo: circle kettlebell around head.",
           "Or standard shoulder press."
         ],
-        image: "https://media.tenor.com/images/placeholder-ohp.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/dumbbell-seated-shoulder-press.gif"
       },
       {
         name: "Plank Variations or Hanging Leg Raises",
@@ -294,7 +294,7 @@ const workouts = {
         instructions: [
           "Hold plank or controlled hanging raises if tolerated."
         ],
-        image: "https://media.tenor.com/images/placeholder-core.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/plank.gif"
       }
     ]
   },
@@ -308,7 +308,7 @@ const workouts = {
           "Feet shoulder-width, sit back and down, chest up.",
           "Add band under feet for resistance if desired."
         ],
-        image: "https://media.tenor.com/images/placeholder-squat.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/bodyweight-squat.gif"
       },
       {
         name: "Glute Bridges (progress to single-leg)",
@@ -317,7 +317,7 @@ const workouts = {
           "Lie on back, feet flat, drive hips up by squeezing glutes.",
           "Single-leg: extend one leg."
         ],
-        image: "https://media.tenor.com/images/placeholder-bridge.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/bodyweight-glute-bridge.gif"
       },
       {
         name: "Step-downs (stairs or sturdy chair)",
@@ -325,7 +325,7 @@ const workouts = {
         instructions: [
           "Controlled lower, light tap, drive back up. Knee tracks over toes."
         ],
-        image: "https://media.tenor.com/images/placeholder-stepdown.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/dumbbell-step-up-split-squat.gif"
       },
       {
         name: "Banded Knee Drives",
@@ -335,7 +335,7 @@ const workouts = {
           "Drive knee up to ~90 degrees, slow lower.",
           "Stay tall."
         ],
-        image: "https://media.tenor.com/images/placeholder-kneeflex.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/cardio/high-knee-against-wall.gif"
       },
       {
         name: "Single-leg Calf Raises",
@@ -343,7 +343,7 @@ const workouts = {
         instructions: [
           "Rise onto ball of foot, lower slowly."
         ],
-        image: "https://media.tenor.com/images/placeholder-calf.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/calves/dumbbell-single-leg-calf-raise.gif"
       },
       {
         name: "Tibialis Raises or Heel Walks",
@@ -351,7 +351,7 @@ const workouts = {
         instructions: [
           "Lift toes against wall or walk on heels."
         ],
-        image: "https://media.tenor.com/images/placeholder-tib.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/calves/band-single-leg-reverse-calf-raise.gif"
       },
       {
         name: "Push-ups",
@@ -359,7 +359,7 @@ const workouts = {
         instructions: [
           "Elevate hands if needed. Body in straight line."
         ],
-        image: "https://media.tenor.com/images/placeholder-pushup.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/chest/push-up.gif"
       },
       {
         name: "Banded Rows",
@@ -367,7 +367,7 @@ const workouts = {
         instructions: [
           "Band under feet or anchored. Pull elbows back."
         ],
-        image: "https://media.tenor.com/images/placeholder-row.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/band-bent-over-row.gif"
       },
       {
         name: "Banded Shoulder Press or Pike Push-ups",
@@ -375,7 +375,7 @@ const workouts = {
         instructions: [
           "Press band overhead or perform pike push-ups."
         ],
-        image: "https://media.tenor.com/images/placeholder-ohp.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/band-shoulder-press.gif"
       },
       {
         name: "Dead Bugs or Forearm Plank",
@@ -383,7 +383,7 @@ const workouts = {
         instructions: [
           "Keep core braced, lower back flat on dead bugs."
         ],
-        image: "https://media.tenor.com/images/placeholder-core.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/plank.gif"
       }
     ]
   },
@@ -396,7 +396,7 @@ const workouts = {
         instructions: [
           "Rear foot on sofa or chair. Controlled lower and drive up."
         ],
-        image: "https://media.tenor.com/images/placeholder-bss.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/dumbbell-single-leg-split-squat.gif"
       },
       {
         name: "Single-leg Glute Bridges",
@@ -404,7 +404,7 @@ const workouts = {
         instructions: [
           "One foot planted, other leg extended. Drive hips up."
         ],
-        image: "https://media.tenor.com/images/placeholder-bridge.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/bodyweight-single-leg-glute-bridge.gif"
       },
       {
         name: "Step-downs",
@@ -412,7 +412,7 @@ const workouts = {
         instructions: [
           "Controlled eccentric, knee tracking."
         ],
-        image: "https://media.tenor.com/images/placeholder-stepdown.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/dumbbell-step-up-split-squat.gif"
       },
       {
         name: "Lying Leg Lifts or Banded Knee Drives",
@@ -421,7 +421,7 @@ const workouts = {
           "Lying: slow leg lifts, back flat.",
           "Or banded standing knee drives."
         ],
-        image: "https://media.tenor.com/images/placeholder-kneeflex.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/lying-leg-raise.gif"
       },
       {
         name: "Single-leg Calf Raises",
@@ -429,7 +429,7 @@ const workouts = {
         instructions: [
           "Slow and controlled."
         ],
-        image: "https://media.tenor.com/images/placeholder-calf.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/calves/dumbbell-single-leg-calf-raise.gif"
       },
       {
         name: "Banded Lateral Walks or Clamshells",
@@ -437,7 +437,7 @@ const workouts = {
         instructions: [
           "Band around knees or ankles. Step sideways or open knee for clams."
         ],
-        image: "https://media.tenor.com/images/placeholder-clam.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/band-clamshell.gif"
       },
       {
         name: "Push-ups",
@@ -445,7 +445,7 @@ const workouts = {
         instructions: [
           "Standard or close-grip."
         ],
-        image: "https://media.tenor.com/images/placeholder-pushup.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/chest/push-up.gif"
       },
       {
         name: "Banded Rows",
@@ -453,7 +453,7 @@ const workouts = {
         instructions: [
           "Pull elbows back, squeeze shoulder blades."
         ],
-        image: "https://media.tenor.com/images/placeholder-row.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/band-bent-over-row.gif"
       },
       {
         name: "Band Pull-aparts + Overhead Band Presses",
@@ -461,7 +461,7 @@ const workouts = {
         instructions: [
           "Pull band apart at chest height, then press overhead."
         ],
-        image: "https://media.tenor.com/images/placeholder-facepull.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/band-pull-apart.gif"
       },
       {
         name: "Bird Dogs or Side Planks",
@@ -469,7 +469,7 @@ const workouts = {
         instructions: [
           "Keep hips level and core braced."
         ],
-        image: "https://media.tenor.com/images/placeholder-sideplank.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/bird-dog.gif"
       }
     ]
   },
@@ -482,7 +482,7 @@ const workouts = {
         instructions: [
           "Band under feet, squat with tension."
         ],
-        image: "https://media.tenor.com/images/placeholder-squat.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/band-squat.gif"
       },
       {
         name: "Banded Hip Thrusts or Single-leg Bridges",
@@ -490,7 +490,7 @@ const workouts = {
         instructions: [
           "Band across hips if possible, or standard bridges."
         ],
-        image: "https://media.tenor.com/images/placeholder-bridge.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/bodyweight-glute-bridge.gif"
       },
       {
         name: "Step-downs",
@@ -498,7 +498,7 @@ const workouts = {
         instructions: [
           "Controlled single-leg lowering."
         ],
-        image: "https://media.tenor.com/images/placeholder-stepdown.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/quads/dumbbell-step-up-split-squat.gif"
       },
       {
         name: "Banded Standing Hip Flexion / Knee Drives",
@@ -506,7 +506,7 @@ const workouts = {
         instructions: [
           "Drive knee up against band, slow lower."
         ],
-        image: "https://media.tenor.com/images/placeholder-kneeflex.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/cardio/high-knee-against-wall.gif"
       },
       {
         name: "Calf Raises + Tibialis Raises",
@@ -514,7 +514,7 @@ const workouts = {
         instructions: [
           "Standard calf and toe lifts."
         ],
-        image: "https://media.tenor.com/images/placeholder-tib.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/calves/dumbbell-standing-calf-raise.gif"
       },
       {
         name: "Banded Monster Walks or Lateral Band Walks",
@@ -522,7 +522,7 @@ const workouts = {
         instructions: [
           "Band around ankles or knees, step sideways with tension."
         ],
-        image: "https://media.tenor.com/images/placeholder-clam.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/glutes/band-lateral-walk.gif"
       },
       {
         name: "Push-ups",
@@ -530,7 +530,7 @@ const workouts = {
         instructions: [
           "Maintain straight line from head to heels."
         ],
-        image: "https://media.tenor.com/images/placeholder-pushup.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/chest/push-up.gif"
       },
       {
         name: "Banded Face Pulls or Rows",
@@ -538,7 +538,7 @@ const workouts = {
         instructions: [
           "Pull band toward face or row elbows back."
         ],
-        image: "https://media.tenor.com/images/placeholder-row.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/lats/band-bent-over-row.gif"
       },
       {
         name: "Banded Lateral Raises or Shoulder Press",
@@ -546,7 +546,7 @@ const workouts = {
         instructions: [
           "Raise arms to sides or press overhead with band."
         ],
-        image: "https://media.tenor.com/images/placeholder-ohp.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/delts/band-lateral-raise.gif"
       },
       {
         name: "Plank with Knee Drives or Dead Bugs",
@@ -554,7 +554,7 @@ const workouts = {
         instructions: [
           "From plank, drive knees toward chest alternately, or perform dead bugs."
         ],
-        image: "https://media.tenor.com/images/placeholder-core.gif"
+        image: "https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/abs/plank.gif"
       }
     ]
   }
