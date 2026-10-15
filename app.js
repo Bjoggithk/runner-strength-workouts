@@ -15,6 +15,7 @@ const prevBtn = document.getElementById('prev-btn');
 const nextBtn = document.getElementById('next-btn');
 const backBtn = document.getElementById('back-to-menu');
 const restartBtn = document.getElementById('restart-btn');
+const upcomingList = document.getElementById('upcoming-list');
 
 function showScreen(screen) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
@@ -88,6 +89,37 @@ function renderSets(ex) {
   }
 }
 
+
+function renderUpcoming() {
+  if (!upcomingList || !currentWorkout) return;
+  const exercises = currentWorkout.exercises || [];
+  const remaining = exercises.slice(currentIndex + 1);
+
+  upcomingList.innerHTML = '';
+  if (remaining.length === 0) {
+    const li = document.createElement('li');
+    li.textContent = 'No more exercises';
+    li.style.opacity = '0.6';
+    upcomingList.appendChild(li);
+    return;
+  }
+
+  remaining.forEach((ex, i) => {
+    const li = document.createElement('li');
+    const name = document.createElement('span');
+    name.textContent = ex.name || 'Exercise';
+    name.className = 'upcoming-name';
+
+    const sets = document.createElement('span');
+    sets.textContent = ex.setsReps || '';
+    sets.className = 'upcoming-sets';
+
+    li.appendChild(name);
+    li.appendChild(sets);
+    upcomingList.appendChild(li);
+  });
+}
+
 function renderExercise() {
   if (!currentWorkout || !currentWorkout.exercises || currentWorkout.exercises.length === 0) {
     exerciseName.textContent = 'No exercises found';
@@ -128,6 +160,8 @@ function renderExercise() {
 
   prevBtn.disabled = currentIndex === 0;
   nextBtn.textContent = currentIndex === exercises.length - 1 ? 'Finish' : 'Next →';
+
+  renderUpcoming();
 }
 
 function startWorkout(id) {

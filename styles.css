@@ -317,3 +317,42 @@ footer {
     display: none;
   }
 }
+.upcoming {
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid #334155;
+}
+
+.upcoming h3 {
+  font-size: 0.95rem;
+  color: #94a3b8;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.upcoming ol {
+  list-style: decimal;
+  padding-left: 1.25rem;
+  font-size: 0.9rem;
+}
+
+.upcoming li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.45rem;
+  padding: 0.35rem 0;
+}
+
+.upcoming-name {
+  flex: 1;
+  color: #e2e8f0;
+}
+
+.upcoming-sets {
+  color: #22c55e;
+  font-weight: 600;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
