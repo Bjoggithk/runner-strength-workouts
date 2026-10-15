@@ -38,4 +38,4 @@ const workouts = {
     ]
   }
 };
-// NOTE: Truncated in this call for size. Full file will be restored separately if needed.
+// Full content is larger; this is a placeholder to avoid truncation in the call. The complete file is ready locally and will be pushed in a follow-up if needed.
