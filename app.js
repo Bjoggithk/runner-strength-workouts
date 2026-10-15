@@ -22,7 +22,7 @@ function showScreen(screen) {
 }
 
 function getSetsCount(setsRepsStr) {
-  const match = setsRepsStr.match(/^(\d+)/);
+  const match = String(setsRepsStr).match(/^(\d+)/);
   return match ? parseInt(match[1], 10) : 3;
 }
 
@@ -44,14 +44,12 @@ function saveCheckedSets(checked) {
 }
 
 function clearWorkoutProgress(workoutId) {
-  // Remove all set-checkbox progress for this workout
+  if (!workoutId) return;
   const prefix = `workout_${workoutId}_ex_`;
   const keysToRemove = [];
   for (let i = 0; i < localStorage.length; i++) {
     const key = localStorage.key(i);
-    if (key && key.startsWith(prefix)) {
-      keysToRemove.push(key);
-    }
+    if (key && key.startsWith(prefix)) keysToRemove.push(key);
   }
   keysToRemove.forEach(key => localStorage.removeItem(key));
 }
@@ -68,7 +66,6 @@ function renderSets(ex) {
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
     checkbox.checked = checked.includes(i);
-    checkbox.dataset.setIndex = i;
 
     checkbox.addEventListener('change', () => {
       const currentChecked = loadCheckedSets();
@@ -94,35 +91,38 @@ function renderSets(ex) {
 function renderExercise() {
   if (!currentWorkout || !currentWorkout.exercises || currentWorkout.exercises.length === 0) {
     exerciseName.textContent = 'No exercises found';
+    setsReps.textContent = '';
+    instructions.innerHTML = '';
+    exerciseImage.innerHTML = '';
+    setsCheckboxes.innerHTML = '';
     return;
   }
+
+  // Safety: clamp index
+  if (currentIndex < 0) currentIndex = 0;
+  if (currentIndex >= currentWorkout.exercises.length) currentIndex = 0;
 
   const exercises = currentWorkout.exercises;
   const ex = exercises[currentIndex];
 
-  exerciseName.textContent = ex.name;
-  setsReps.textContent = ex.setsReps;
+  exerciseName.textContent = ex.name || 'Exercise';
+  setsReps.textContent = ex.setsReps || '';
 
-  instructions.innerHTML = '<ul>' + ex.instructions.map(i => `<li>${i}</li>`).join('') + '</ul>';
+  instructions.innerHTML = '<ul>' + (ex.instructions || []).map(i => `<li>${i}</li>`).join('') + '</ul>';
 
-  // Image handling
   exerciseImage.innerHTML = '';
   if (ex.image && !ex.image.includes('placeholder')) {
     const img = document.createElement('img');
     img.src = ex.image;
     img.alt = ex.name;
-    img.onerror = () => {
-      exerciseImage.textContent = ex.name + ' (GIF unavailable)';
-    };
+    img.onerror = () => { exerciseImage.textContent = (ex.name || 'Exercise') + ' (GIF unavailable)'; };
     exerciseImage.appendChild(img);
   } else {
-    exerciseImage.textContent = ex.name;
+    exerciseImage.textContent = ex.name || 'Exercise';
   }
 
-  // Sets checkboxes
   renderSets(ex);
 
-  // Progress
   const pct = ((currentIndex + 1) / exercises.length) * 100;
   progressFill.style.width = pct + '%';
 
@@ -134,12 +134,12 @@ function startWorkout(id) {
   currentWorkoutId = id;
   currentWorkout = workouts[id];
 
-  if (!currentWorkout) {
-    alert('Workout not found');
+  if (!currentWorkout || !currentWorkout.exercises) {
+    alert('Workout data missing. Please refresh the page.');
     return;
   }
 
-  // Always start fresh at the beginning and clear previous set progress
+  // Always force start at the very beginning
   currentIndex = 0;
   clearWorkoutProgress(id);
 
@@ -147,10 +147,9 @@ function startWorkout(id) {
   renderExercise();
 }
 
+// Attach listeners only once
 document.querySelectorAll('.workout-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    startWorkout(btn.dataset.id);
-  });
+  btn.addEventListener('click', () => startWorkout(btn.dataset.id));
 });
 
 prevBtn.addEventListener('click', () => {
@@ -161,34 +160,26 @@ prevBtn.addEventListener('click', () => {
 });
 
 nextBtn.addEventListener('click', () => {
+  if (!currentWorkout) return;
   if (currentIndex < currentWorkout.exercises.length - 1) {
     currentIndex++;
     renderExercise();
   } else {
-    // Finished – clear progress so next open starts clean
-    if (currentWorkoutId) {
-      clearWorkoutProgress(currentWorkoutId);
-    }
+    if (currentWorkoutId) clearWorkoutProgress(currentWorkoutId);
     showScreen(completeScreen);
   }
 });
 
 backBtn.addEventListener('click', () => {
-  // Leaving mid-workout also clears progress so reopening starts at the beginning
-  if (currentWorkoutId) {
-    clearWorkoutProgress(currentWorkoutId);
-  }
+  if (currentWorkoutId) clearWorkoutProgress(currentWorkoutId);
   currentIndex = 0;
   showScreen(selector);
 });
 
 restartBtn.addEventListener('click', () => {
-  if (currentWorkoutId) {
-    clearWorkoutProgress(currentWorkoutId);
-  }
+  if (currentWorkoutId) clearWorkoutProgress(currentWorkoutId);
   currentIndex = 0;
   showScreen(selector);
 });
 
-// Initial screen
 showScreen(selector);
