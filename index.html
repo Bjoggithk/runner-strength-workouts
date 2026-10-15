@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Runner Strength Workouts</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Runner Strength</h1>
+    <p>Hip flexors • Knees • Shins • Running muscles</p>
+  </header>
+
+  <main id="app">
+    <!-- Workout selector -->
+    <section id="selector" class="screen active">
+      <h2>Choose a Workout</h2>
+      <div class="workout-grid">
+        <button class="workout-btn gym" data-id="gymA">Gym A<br><small>Bilateral Strength</small></button>
+        <button class="workout-btn gym" data-id="gymB">Gym B<br><small>Unilateral Focus</small></button>
+        <button class="workout-btn gym" data-id="gymC">Gym C<br><small>Kettlebell / Posterior</small></button>
+        <button class="workout-btn home" data-id="homeA">Home A<br><small>Bilateral Base</small></button>
+        <button class="workout-btn home" data-id="homeB">Home B<br><small>Unilateral & Stability</small></button>
+        <button class="workout-btn home" data-id="homeC">Home C<br><small>Band-Focused</small></button>
+      </div>
+      <p class="note">Gym and Home workouts are independent. Rotate within your available equipment.</p>
+    </section>
+
+    <!-- Exercise view -->
+    <section id="workout" class="screen">
+      <div class="progress-bar">
+        <div id="progress" class="progress-fill"></div>
+      </div>
+      <div id="exercise-card">
+        <div id="exercise-image" class="exercise-image">
+          <!-- GIF or placeholder -->
+        </div>
+        <h2 id="exercise-name"></h2>
+        <p id="sets-reps" class="sets-reps"></p>
+        <div id="instructions" class="instructions"></div>
+        <div class="nav-buttons">
+          <button id="prev-btn" class="nav-btn">← Prev</button>
+          <button id="next-btn" class="nav-btn primary">Next →</button>
+        </div>
+        <button id="back-to-menu" class="text-btn">← Back to workouts</button>
+      </div>
+    </section>
+
+    <!-- Complete -->
+    <section id="complete" class="screen">
+      <h2>Workout Complete!</h2>
+      <p>Great work. Focus on recovery and listen to your body.</p>
+      <button id="restart-btn" class="primary-btn">Choose another workout</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Pain-free range only. Consult a professional if pain persists. Built for future expansions.</p>
+  </footer>
+
+  <script src="workouts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
