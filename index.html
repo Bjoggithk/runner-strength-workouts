@@ -9,13 +9,15 @@
 <body>
   <header>
     <h1>Runner Strength</h1>
-    <p>Hip flexors • Knees • Shins • Running muscles</p>
+    <p>Hip flexors • Knees • Shins • Running muscles + PPL</p>
   </header>
 
   <main id="app">
     <!-- Workout selector -->
     <section id="selector" class="screen active">
       <h2>Choose a Workout</h2>
+
+      <h3 class="section-title">Runner Strength</h3>
       <div class="workout-grid">
         <div class="col-header gym">Gym</div>
         <div class="col-header home">Home</div>
@@ -29,7 +31,23 @@
         <button class="workout-btn gym" data-id="gymC">C<br><small>Kettlebell / Posterior</small></button>
         <button class="workout-btn home" data-id="homeC">C<br><small>Band-Focused</small></button>
       </div>
-      <p class="note">Gym and Home workouts are independent. Rotate within your available equipment.</p>
+
+      <h3 class="section-title">Push / Pull / Legs</h3>
+      <div class="workout-grid ppl-grid">
+        <div class="col-header push">Push</div>
+        <div class="col-header pull">Pull</div>
+        <div class="col-header legs">Legs</div>
+
+        <button class="workout-btn push" data-id="push1">1<br><small>Bench Focus</small></button>
+        <button class="workout-btn pull" data-id="pull1">1<br><small>Deadlift Focus</small></button>
+        <button class="workout-btn legs" data-id="legs1">1<br><small>Squat Focus</small></button>
+
+        <button class="workout-btn push" data-id="push2">2<br><small>OHP Focus</small></button>
+        <button class="workout-btn pull" data-id="pull2">2<br><small>Pull-up Focus</small></button>
+        <div></div>
+      </div>
+
+      <p class="note">Gym and Home workouts are independent. PPL is a separate hypertrophy option.</p>
     </section>
 
     <!-- Exercise view -->
